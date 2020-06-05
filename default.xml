@@ -697,7 +697,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- <include name="anbox.xml" />
-  <project path="anbox/android" name="device/generic/goldfish" /> -->
+  <include name="anbox.xml" />
+  <!-- <project path="anbox/android" name="device/generic/goldfish" /> -->
 
 </manifest>
