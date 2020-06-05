@@ -698,6 +698,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="anbox.xml" />
-  <project path="anbox/android/camera" name="device/generic/goldfish" />
+  <project path="anbox/android/camera" name="device/generic/goldfish/camera" />
 
 </manifest>
