@@ -699,6 +699,6 @@
 
   <include name="anbox.xml" />
   <!-- <project path="anbox/android" name="device/generic/goldfish" /> -->
-  <project path="anbox/android/opengl" name="device/generic/goldfish-opengl" groups="pdk" />
+  <!-- <project path="anbox/android/opengl" name="device/generic/goldfish-opengl" groups="pdk" /> -->
 
 </manifest>
