@@ -14,8 +14,8 @@
     -->
     <remove-project name="device/generic/x86" />
     <remove-project name="device/generic/x86_64" />
-    <!-- <remove-project name="device/generic/goldfish" />
-    <remove-project name="device/generic/goldfish-opengl" /> -->
+    <remove-project name="device/generic/goldfish" />
+    <remove-project name="device/generic/goldfish-opengl" />
 
     <!-- These are all Android repositories we have modifications for -->
     <!--
