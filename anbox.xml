@@ -7,8 +7,8 @@
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
-    <remove-project name="platform/hardware/interfaces" />
-    <remove-project name="platform/hardware/libhardware" />
+    <!-- <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/libhardware" /> -->
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/vold" />
 
@@ -20,8 +20,8 @@
     <project path="frameworks/av" name="platform_frameworks_av" remote="anbox" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="anbox" />
     <project path="frameworks/native" name="platform_frameworks_native" remote="anbox" />
-    <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="anbox" />
-    <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="anbox" />
+    <!-- <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="anbox" />
+    <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="anbox" /> -->
     <project path="system/core" name="platform_system_core" remote="anbox" />
     <project path="system/vold" name="platform_system_vold" remote="anbox" />
 </manifest>
