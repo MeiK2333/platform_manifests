@@ -2,6 +2,11 @@
 <manifest>
     <remote name="anbox" fetch="https://github.com/MeiK2333/" revision="anbox-p" />
 
+    <remove-project name="device/generic/x86" />
+    <remove-project name="device/generic/x86_64" />
+    <remove-project name="device/generic/goldfish" />
+    <remove-project name="device/generic/goldfish-opengl" />
+
     <project path="device/anbox" name="device_anbox" remote="anbox" revision="anbox-p" />
     <project path="anbox" name="anbox" remote="anbox" revision="anbox-p" />
 </manifest>
