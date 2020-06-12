@@ -11,6 +11,6 @@
     <project path="device/generic/goldfish" name="device_generic_goldfish" remote="anbox" />
     <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" remote="anbox" />
 
-    <project path="device/anbox" name="device_anbox" remote="anbox" revision="anbox-p" />
-    <project path="anbox" name="anbox" remote="anbox" revision="anbox-p" />
+    <project path="device/anbox" name="device_anbox" remote="anbox" revision="anbox10" />
+    <project path="anbox" name="anbox" remote="anbox" revision="anbox10" />
 </manifest>
