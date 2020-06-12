@@ -695,44 +695,6 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
-  <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
-  <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
-  <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
-  <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
-  <project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch,generic_fs" />
-  <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
-  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
-  <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
-  <project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
-  <project path="device/linaro/poplar" name="device/linaro/poplar" groups="device,poplar,pdk" />
-  <project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
-  <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
-  <project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
-  <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" />
-  <project path="external/adeb" name="platform/external/adeb" groups="pdk" />
-  <project path="external/apache-commons-bcel" name="platform/external/apache-commons-bcel" groups="pdk" />
-  <project path="external/apache-commons-compress" name="platform/external/apache-commons-compress" groups="pdk" />
-  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
-  <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
-  <project path="external/libutf" name="platform/external/libutf" groups="pdk" />
-  <project path="external/lua" name="platform/external/lua" groups="pdk" />
-  <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" />
-  <project path="external/neon_2_sse" name="platform/external/neon_2_sse" groups="pdk" />
-  <project path="external/python/atomicwrites" name="platform/external/python/atomicwrites" groups="pdk" />
-  <project path="external/python/attrs" name="platform/external/python/attrs" groups="pdk" />
-  <project path="external/python/cffi" name="platform/external/python/cffi" groups="pdk" />
-  <project path="external/python/cryptography" name="platform/external/python/cryptography" groups="pdk" />
-  <project path="external/python/dateutil" name="platform/external/python/dateutil" groups="pdk" />
-  <project path="external/python/funcsigs" name="platform/external/python/funcsigs" groups="pdk" />
-  <project path="external/python/mock" name="platform/external/python/mock" groups="pdk" />
-  <project path="external/python/more-itertools" name="platform/external/python/more-itertools" groups="pdk" />
-  <project path="external/python/pluggy" name="platform/external/python/pluggy" groups="pdk" />
-  <project path="external/python/pyopenssl" name="platform/external/python/pyopenssl" groups="pdk" />
-  <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" />
-  <project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" />
-
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="anbox.xml" />
